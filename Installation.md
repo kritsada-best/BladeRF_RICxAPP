@@ -1,2 +1,3 @@
 **srsRAN_Project**
-การติดตั้ง
+
+'sudo apt-get install cmake g++ libpython3-dev python3-numpy swig'
