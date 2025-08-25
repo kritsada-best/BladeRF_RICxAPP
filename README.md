@@ -2,8 +2,8 @@
 This project explains how to install, configure, and run all required software to build a Private 5G Network on Linux (Ubuntu/Debian).
 The setup uses BladeRF as the base station, srsRAN as the 5G Core, and optionally RIC + xApp for intelligent RAN control.
 Once completed, the private network allows real UEs (such as smartphones or modems) to connect and access the Internet.
-##
-### Flow Explanation
+
+## Flow Explanation
 - **UE --> RAN** : The UE connects to the network through the radio node (gNB/eNB).  
 - **RAN --> RIC** : The RAN sends performance metrics to the RIC.  
 - **RIC --> xApp** : The xApp analyzes and controls resources via the RIC.  
