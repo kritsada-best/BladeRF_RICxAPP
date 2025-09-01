@@ -24,7 +24,7 @@
     cd srsRAN_Project
     mkdir build
     cd build
-    cmake ../
+    cmake ../ -DCMAKE_CXX_FLAGS="-Wno-error=switch"
     make -j $(nproc)
     make test -j $(nproc)
     sudo make install
